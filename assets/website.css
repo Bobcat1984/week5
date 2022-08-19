@@ -87,16 +87,21 @@ h1#title {
   border-radius: 5%;
 }
 
-nav:hover {
-  background: #a3e7f0;
+nav a.menu:hover {
+  background: #d9e8ea;
+
+}
+
+nav a.menu:visited {
+color: #ca383f;
 }
 
 .btn:visited {
-  color: #ca383f;
+  color: rgb(76, 10, 41);
 }
 
 .btn:active {
-    color: rgb(233, 180, 228);
+    color: rgb(240, 240, 240);
   }
 
   h3 {
