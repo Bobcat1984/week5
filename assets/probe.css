@@ -1,0 +1,44 @@
+h2 {
+  color: red;
+}
+h1 {
+  color: blue;
+  font-family: "Arial";
+}
+img {
+  width: calc(100%-100px);
+  border-radius: 25px;
+}
+nav .menu {
+  text-decoration: none;
+  color: rgb(213, 30, 30);
+  padding: 4px;
+  font-size: medium;
+  font-weight: bolder;
+}
+nav .menu:hover {
+  text-decoration: underline;
+}
+
+#wiki {
+  font-weight: bold;
+  color: red;
+}
+
+p::first-letter {
+  color: rgb(255, 0, 238);
+}
+#logo {
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  opacity: 0.5;
+  box-shadow: 0 0 10px black;
+}
+#companyname {
+  padding: 10px;
+  margin: 20px;
+  font-family: 'Playfair Display', Times, serif;
+  font-size: large;
+}

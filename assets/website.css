@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "ABeeZee Italic";
+    src: url(/assets/fonts/abeezee-italic_[allfont.ru].ttf) format('ttf');
+    font-weight: 400;
+  }
+
+#logo {
+  position: absolute;
+  width: 509px;
+  height: 553px;
+  left: 1075.74px;
+  top: 160px;
+
+  background: url(клубок.png);
+  transform: rotate(20.73deg);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 24px;
+
+  position: absolute;
+  width: 397px;
+  height: 19px;
+  left: 717px;
+  top: 73px;
+
+  color: black;
+  font-family: "ABeeZee Italic", Arial, sans-serif;
+}
+
+p {
+    position: absolute;
+width: 123px;
+height: 42px;
+left: 200px;
+top: 40px;
+
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 130%;
+color: #0B0B0B;
+}
+
+h1#title {
+  position: absolute;
+  width: 570px;
+  height: 176px;
+  left: 245px;
+  top: 234px;
+
+  font-family: "Abhaya Libre Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 160px;
+  line-height: 110%;
+
+  letter-spacing: -5px;
+
+  color: #00020c;
+}
+
+.btn {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  padding-right: 50px;
+  padding-left: 45px;
+
+  position: absolute;
+  width: 139px;
+  height: 40px;
+  left: 1237px;
+  top: 73px;
+
+  background-color: rgb(233, 151, 151);
+  color: white;
+  border-radius: 5%;
+}
+
+nav:hover {
+  background: #a3e7f0;
+}
+
+.btn:visited {
+  color: #ca383f;
+}
+
+.btn:active {
+    color: rgb(233, 180, 228);
+  }
+
+  h3 {
+    position: absolute;
+width: 171px;
+height: 22px;
+left: 422px;
+top: 489px;
+
+font-family: "ABeeZee Italic", Arial, sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+color: #252525;
+  }
