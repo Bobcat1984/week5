@@ -66,6 +66,10 @@ h1#title {
   color: #00020c;
 }
 
+span.colortext {
+  color: #5364FF;
+}
+
 .btn {
   box-sizing: border-box;
 
@@ -82,7 +86,7 @@ h1#title {
   left: 1237px;
   top: 73px;
 
-  background-color: rgb(233, 151, 151);
+  background-color: #e99797;
   color: white;
   border-radius: 5%;
 }
@@ -97,11 +101,11 @@ color: #ca383f;
 }
 
 .btn:visited {
-  color: rgb(76, 10, 41);
+  color: #4C0A29;
 }
 
 .btn:active {
-    color: rgb(240, 240, 240);
+    color: #F0F0F0;
   }
 
   h3 {
